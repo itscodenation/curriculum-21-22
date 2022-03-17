@@ -1,13 +1,7 @@
+.pc, .fork, .bc, .cake, .Water, .die, .diee, .dead, .Choke, .spoon, .water, .cultery {
+    display:none;
+}
 
-
-.pc, .fork, .bc, .cake, .Water, .die, .diee, .dead, .Choke, .spoon, .water, .cultery {display:none;}
-img{width:500px;}
-
-
-
-
-
-
-
-
-
+img{
+    width:500px;
+}
