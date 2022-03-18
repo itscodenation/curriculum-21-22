@@ -1,9 +1,5 @@
-#cake, #cutlery, #choke, #fail, #dead, #end {
-    display: none;
-}
-
 img{
-    width: 500px;
+    max-width: 500px;
 }
 
 button {
