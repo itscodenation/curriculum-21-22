@@ -1,7 +1,17 @@
-.pc, .fork, .bc, .cake, .Water, .die, .diee, .dead, .Choke, .spoon, .water, .cultery {
-    display:none;
+#cake, #cutlery, #choke, #fail, #dead, #end {
+    display: none;
 }
 
 img{
-    width:500px;
+    width: 500px;
+}
+
+button {
+    padding: 5px;
+    margin: 10px;
+}
+
+.card-contents {
+    display: flex;
+    flex-direction: column;
 }

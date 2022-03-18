@@ -1,30 +1,77 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Choose Your Own Adventure</title>
+        <title>Choose Your Own Adventure V2</title>
    </head>
    <body>
         <!--         School -->
-        <h1> Do you want to go to the Bakery? </h1>
-        <img class="bakery" src="https://media.istockphoto.com/vectors/bakery-shop-building-facade-with-signboard-vector-id1176946222?k=20&m=1176946222&s=612x612&w=0&h=Ss9j_fMfYelT1hBVqQx9a-q9YWIlB3avioxPWSR_IQQ=">
-        <button class="yes">Yes</button>
-        <button class="no">No</button>
+        <div id="start" class="card">
+            <h1>Do you want to go to the Bakery?</h1>
+            <div class="card-contents">
+                <div class="buttons">
+                    <button class="cake">Yes</button>
+                    <button class="end">No</button>
+                </div>
+                <img src="https://media.istockphoto.com/vectors/bakery-shop-building-facade-with-signboard-vector-id1176946222?k=20&m=1176946222&s=612x612&w=0&h=Ss9j_fMfYelT1hBVqQx9a-q9YWIlB3avioxPWSR_IQQ=">
+            </div>
+        </div>
+
         <!--         Cake -->
-        <img class="cake" src="https://t3.ftcdn.net/jpg/03/27/07/62/360_F_327076285_G5pC7nCKzueIE4rczZHoNNvSgEfzAhPH.jpg">
-        <button class="bc">Brown</button>
-        <button class="pc">Pink</button>
+        <div id="cake" class="card">
+            <h1>Brown or Pink?</h1>
+            <div class="card-contents">
+                <div class="buttons">
+                    <button class="cutlery">Brown</button>
+                    <button class="cutlery">Pink</button>
+                </div>
+                <img src="https://t3.ftcdn.net/jpg/03/27/07/62/360_F_327076285_G5pC7nCKzueIE4rczZHoNNvSgEfzAhPH.jpg">
+            </div>
+        </div>
+
         <!--        Cultery -->
-        <button class="fork">Fork</button>
-        <button class="spoon">Spoon</button>
-        <img class="cultery" src="https://lh3.googleusercontent.com/proxy/TTwVLz1VaTmdzrX7un1NIE3-d6iKgeubHrndjfKwqzcmUdcF_aU-WdUzEw1efZTLH9I5TvKU1vCWzGrikONGsznedPMoKpI">
+        <div id="cutlery" class="card">
+            <h1>Fork or Spoon?</h1>
+            <div class="card-contents">
+                <div class="buttons">
+                    <button class="choke">Fork</button>
+                    <button class="choke">Spoon</button>
+                </div>
+                <img src="https://picsum.photos/id/155/400/400">
+            </div>
+        </div>
+
         <!--         Uh oh -->
-        <button class="Water">Drink Water</button>
-        <button class="Choke">Choke</button>
-        <!--         Death -->
-        <button class="die">die now</button>
-        <button class="diee">die later</button>
-        <img class="water" src="https://us.123rf.com/450wm/ynmcreations/ynmcreations1807/ynmcreations180700014/112957891-good-habits-drinking-water.jpg?ver=6">
-        <img class="dead"
-            src="https://lh3.googleusercontent.com/proxy/BokL2QAN6ccnnXiP9X2Sn4vR3eHS74iFOZCsNmEhs60WMzqbv6ZvZRE4nduwfVfTrlMgVFwpqRBeGtygtvb80BZSgg4XYmA">
+        <div id="choke" class="card">
+            <h1>Cake is stuck in your throat!</h1>
+            <div class="card-contents">
+                <div class="buttons">
+                    <button class="fail">Drink Water</button>
+                    <button class="dead">Choke</button>
+                </div>
+                <img src="https://us.123rf.com/450wm/ynmcreations/ynmcreations1807/ynmcreations180700014/112957891-good-habits-drinking-water.jpg?ver=6">
+            </div>
+        </div>
+
+        <!--         Fail -->
+        <div id="fail" class="card">
+            <h1>It didn't work! What Now!!</h1>
+            <div class="card-contents">
+                <div class="buttons">
+                    <button class="dead">die now</button>
+                    <button class="dead">die later</button>
+                </div>
+            </div>
+        </div>
+
+        <!--         Dead -->
+        <div id="dead" class="card">
+            <h1>You're Dead. :(</h1>
+            <img src="https://picsum.photos/id/123/400/400">
+        </div>
+
+        <!--         End -->
+        <div id="end">
+            <h1>sorry.</h1>
+        </div>
     </body>
 </html>
