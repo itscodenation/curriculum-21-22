@@ -1,0 +1,13 @@
+img{
+    max-width: 500px;
+}
+
+button {
+    padding: 5px;
+    margin: 10px;
+}
+
+.card-contents {
+    display: flex;
+    flex-direction: column;
+}
